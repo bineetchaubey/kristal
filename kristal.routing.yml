@@ -1,0 +1,11 @@
+kristal.json:
+  path: 'page_json/{apikey}/{node}'
+  defaults:
+    _controller: '\Drupal\kristal\Controller\kristalController::content' 
+    _title: 'JSON Return'
+  options:
+    parameters:
+      node:
+        type: 'entity:node'
+  requirements:
+    _access: 'TRUE'

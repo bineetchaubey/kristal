@@ -1,0 +1,7 @@
+# First extend the system.site configuration to add and alter Form
+system.site:
+  mapping:
+    siteapikey:
+      type: label
+      label: 'Site API Keys'
+    

@@ -1,0 +1,5 @@
+services:
+  mymodule.route_subscriber:
+    class: Drupal\kristal\Routing\kristalRouteSubscriber
+    tags:
+      - { name: event_subscriber }
